@@ -1,4 +1,5 @@
 # Community Guardian
+A calm, AI-powered safety digest that reduces alert fatigue and provides actionable insights.
 
 ## Problem
 Users face alert fatigue due to scattered and noisy safety information.
@@ -21,8 +22,11 @@ A calm, AI-powered safety digest platform that filters noise and provides action
 - CLI interface
 - JSON storage
 
-## How to Run
+## Environment Setup
+cp .env.example .env
+# Add your API key inside .env
 
+## How to Run
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
@@ -31,7 +35,7 @@ python cli.py
 
 ## Tests
 
-pytest
+python -m pytest
 
 ## Design Decisions
 - Area-level location → privacy
