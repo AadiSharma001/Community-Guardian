@@ -7,6 +7,28 @@ Users face alert fatigue due to scattered and noisy safety information.
 ## Solution
 A calm, AI-powered safety digest platform that filters noise and provides actionable insights.
 
+## Project Structure
+
+community-guardian/
+│
+├── app/
+│   ├── main.py        # FastAPI server
+│   ├── models.py      # Data models
+│   ├── ai.py          # AI + fallback logic
+│   ├── fallback.py    # Rule-based fallback
+│   ├── storage.py     # JSON storage
+│
+├── data/
+│   └── incidents.json # Synthetic dataset
+│
+├── tests/
+│   └── test_app.py    # Unit tests
+│
+├── cli.py             # CLI interface
+├── requirements.txt
+├── .env.example
+├── README.md
+
 ## Features
 - Incident creation
 - AI + fallback summarization

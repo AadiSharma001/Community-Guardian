@@ -17,14 +17,16 @@
   },
   {
     "id": 3,
-    "type": "General Alert",
-    "description": "Abc",
-    "summary": "Abc",
+    "type": "Phishing",
+    "description": "Fake bank call asking for OTP",
+    "summary": "Fake bank call asking for OTP",
     "actions": [
-      "Stay cautious"
+      "Do not share OTP",
+      "Contact your bank",
+      "Enable 2FA"
     ],
-    "location": "fc",
-    "severity": "low",
+    "location": "Andheri",
+    "severity": "high",
     "status": "open"
   }
 ]
