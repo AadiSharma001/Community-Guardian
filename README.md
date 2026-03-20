@@ -48,8 +48,8 @@ Users face alert fatigue due to scattered and noisy safety information.
 ### ● Run Commands:
 
 # Clone repo
-git clone https://github.com/YOUR_USERNAME/community-guardian.git
-cd community-guardian
+git clone https://github.com/AadiSharma001/Community-Guardian.git
+cd Community-Guardian
 
 # Create virtual environment
 python -m venv venv
