@@ -120,3 +120,6 @@ Yes
 - AI responses are simulated or rule-based  
 - CLI interface is not user-friendly for non-technical users  
 - No authentication or multi-user support  
+
+## Demo video link
+https://youtu.be/EdSoMO0wMzQ
